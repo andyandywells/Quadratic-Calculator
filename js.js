@@ -5,7 +5,7 @@ var setVariables = function() {
 		a = parseInt(document.getElementById('a').value);
 		b = parseInt(document.getElementById('b').value);
 		c = parseInt(document.getElementById('c').value);
-}
+};
 var checkRoots = function(a, b, c) {
 		
 		var check = (Math.pow(b, 2)) - (4) * (a) * (c);
@@ -23,4 +23,4 @@ else {
 		
 		document.getElementById('valueDisplay').innerHTML = (((-1 * b) + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2*a));
 		document.getElementById('valueDisplay2').innerHTML = (((-1 * b) - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2*a));
-}
+};
