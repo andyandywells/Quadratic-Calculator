@@ -5,8 +5,8 @@ var setVariables = function() {
 		a = parseInt(document.getElementById('a').value);
 		b = parseInt(document.getElementById('b').value);
 		c = parseInt(document.getElementById('c').value);
-}
-var checkRoots = function(a, b, c) {
+};
+var checkRoots = function() {
 		
 		var check = (Math.pow(b, 2)) - (4) * (a) * (c);
 if (check > 0) {
@@ -18,9 +18,9 @@ else if (check < 0) {
 else {
 	document.getElementById('rootDisplay').innerHTML = "there is one real root.";
 }
-}
- var formula = function(a, b, c) {
+};
+ var formula = function() {
 		
 		document.getElementById('valueDisplay').innerHTML = (((-1 * b) + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2*a));
 		document.getElementById('valueDisplay2').innerHTML = (((-1 * b) - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2*a));
-}
+};
