@@ -2,46 +2,34 @@
 <html>
 <HEAD>
     <LINK href="styles.css" rel="stylesheet" type="text/css">
-<link href="js.jss" type="text/javascript">
-  </HEAD>
+    <script type="text/javascript" src="js.js"></script>
+    
+</HEAD>
 <body>
 
-<div id="container" class="myform">
-<h1>Solving Quadratic Equations</h1>
-</br>
-</br>
-<center><img width="50%" src="http://andyandywells.com/img/ax2bxc.png"/></center>
-</br>
-</br>
-
-<p>Enter the values of a, b and c to calculate values of x.</p>
-<form id="form" style="width: 300px; margin-left: 65px;"name="myForm" method="post">
-
-
-<label>a = 
-
-</label>
-<input type="text" class="input"name="name" id="a" />
-
-<label>b = 
-
-</label>
-<input type="text" class="input" name="name" id="b" />
-
-<label>c = 
-
-</label>
-<input type="text" class="input" name="name" id="c" />
-
-<div class="spacer"></div>
-<input type='button' class="button" style="margin-left: 35px; width: 206px; margin-bottom: 50px;"onclick='setVariables(), checkRoots(a, b, c), part1(a, b, c)' value='Calculate X'/>
-<div class="spacer"></div>
-</form>
-<div class="spacer"></div>
-<p><b id="rootDisplay"></b></p>
-<p>X =<b id="valueDisplay"></b></p>
-<p>X =<b id="valueDisplay2"></b></p>
-</div>
-
+	<div id="container" class="myform">
+		<h1>Solving Quadratic Equations</h1>
+		</br>
+		</br>
+			<center><img width="50%" src="http://andyandywells.com/img/ax2bxc.png"/></center>
+		</br>
+		</br>
+			<p>Enter the values of a, b and c to calculate values of x.</p>
+		<form id="form" style="width: 300px; margin-left: 65px;"name="myForm" method="post">
+			<label>a = </label>
+				<input type="text" class="input"name="name" id="a" />
+			<label>b = </label>
+				<input type="text" class="input" name="name" id="b" />
+        	<label>c = </label>
+				<input type="text" class="input" name="name" id="c" />
+		<div class="spacer"></div>
+			<input type='button' class="button" style="margin-left: 35px; width: 206px; margin-bottom: 50px;"onclick='checkRoots(a, b, c), formula(a, b, c)' value='Calculate X'/>
+		<div class="spacer"></div>
+		</form>
+		<div class="spacer"></div>
+			<p><b id="rootDisplay"></b></p>
+			<p>X =<b id="valueDisplay"></b></p>
+			<p>X =<b id="valueDisplay2"></b></p>
+		</div>
 </body>
 </html>
