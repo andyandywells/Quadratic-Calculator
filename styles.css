@@ -4,8 +4,8 @@
 body{
 font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
 font-size:12px;
-background-color: #FBFAF7;
-background: url('http://andyandywells.com/img/bg.png') 0 0 repeat;
+background-color: #302F2F;
+
 }
 p, h1, form, button{border:0; margin:0; padding:0;}
 .spacer{clear:both; height:1px;}
